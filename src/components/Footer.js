@@ -27,7 +27,8 @@ const Footer = () => {
 
                 <div className="right">
                     <h4>About me</h4>
-                    <p> "Passionate about creating engaging and user-friendly web experiences, I am a beginner frontend developer eager to embark on an exciting journey in the world of web development. With a strong foundation in HTML, CSS, JavaScript and ReactJS, I am constantly expanding my skills and staying up-to-date with the latest trends and best practices in the industry"</p>
+                    <p>I am a react front-end developer. I create responsive 
+            secure websites.</p>
                     <div className="social">
                         <FaFacebook size={20} style={{color:"#fff",marginRight: "2rem"}}/>
                         <FaTwitter size={20} style={{color:"#fff",marginRight: "2rem"}}/>
