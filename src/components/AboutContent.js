@@ -1,7 +1,7 @@
 import "./AboutContentStyles.css";
 import React from "react";
 import {Link} from "react-router-dom";
-import React1 from "../assets/react1.jpg";
+import mypic from "../assets/mypic.jpeg";
 import React2 from "../assets/react2.jpg";
 
 const AboutContent = () => {
@@ -19,7 +19,7 @@ const AboutContent = () => {
         <div className="right">
             <div className="img-container">
                 <div className="img-stack top">
-                    <img src={React1} className="img" alt="true"/>
+                    <img src={mypic} className="img" alt="true"/>
                 </div>
                 <div className="img-stack bottom">
                     <img src={React2} className="img" alt="true"/>
