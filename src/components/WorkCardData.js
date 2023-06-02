@@ -4,6 +4,8 @@ import pro2 from "../assets/project2.jpg";
 
 import pro3 from "../assets/project3.png";
 import pro4 from "../assets/project4.jpg";
+import pro5 from "../assets/project5.jpg";
+import pro6 from "../assets/project6.jpg";
 
 const ProjectCardData = [
     {
@@ -32,7 +34,22 @@ const ProjectCardData = [
         title : "Coffee Shop Website",
         text : "Features Responsive home section with toggle menu effect using vanilla javascript.Responsive about section,  facility section, gallery section and footer section.",
         view : "https://coffeeshop-3999a4.netlify.app/"
+    },
+
+    {
+        imgsrc : pro5,
+        title : "Flower-shop Website",
+        text : "Features Responsive home section with toggle menu effect using HTML and CSS.Responsive about section,  facility section, gallery section and footer section.",
+        view : "https://flowerweb-766e0a.netlify.app"
+    },
+
+    {
+        imgsrc : pro6,
+        title : " Map-site",
+        text : "  Basic responsive integrated open street maps in react using leaflet and maptiler",
+        view : "mymap-4250b5.netlify.app"
     }
+
 
     
 
