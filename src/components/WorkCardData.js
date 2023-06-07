@@ -10,7 +10,7 @@ import pro6 from "../assets/project6.jpg";
 const ProjectCardData = [
     {
         imgsrc : pro4,
-        title : "Flappy Bug",
+        title : "IMDB Clone",
         text : "This ia a web application which allow users to search for and browse latest and upcoming movies.",
         view : "https://imdb-clone-22f717.netlify.app"
     },
