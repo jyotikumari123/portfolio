@@ -1,41 +1,24 @@
 import "./AboutMeStyles.css";
 import {Link} from "react-router-dom";
+import uniqid from 'uniqid';
 
+import {skills} from "../port"
 import React from "react";
 
 const PricingCard = () =>{
+    if (!skills.length) return null
     return (
 
-        <div className="aboutme">
-        <h3> EDUCATION </h3>
-            <div className="card-container">
-                <div className="card">
-                    <p className="btc"> Matriculation </p>
-                    <span className="bar"></span>
-                     <p>Oxford Public School, Ranchi</p>
-                    <p> 89% </p>
-                    
-                  
-                </div>
-
-                <div className="card">
-                    <p className="btc"> Intermediate </p>
-                    <span className="bar"></span>
-                     <p>Oxford Public School, Ranchi</p>
-                    <p> 64% </p>
-                   
-                </div>
-
-                <div className="card">
-                    <p className="btc"> Bachelor Of Computer Applications </p>
-                    <span className="bar"></span>
-                     <p>Birla Institute of Technology, Ranchi</p>
-                    <p> 71% </p>
-                   
-                </div>
-            </div>
-        
-        </div>
+         <section className='section skills' id='skills'>
+      <h2 className='section__title'>Skills</h2>
+      <ul className='skills__list'>
+        {skills.map((skill) => (
+          <li key={uniqid()} className='skills__list-item btn btn--plain'>
+            {skill}
+          </li>
+        ))}
+      </ul>
+    </section>
     )
 }
 export default PricingCard;
